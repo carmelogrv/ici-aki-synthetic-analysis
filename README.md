@@ -23,5 +23,4 @@ This notebook generates a synthetic cohort mimicking the clinical features of 75
 
 1. **Exploratory Data Analysis**: visualization of variable distributions, along with sCr trends and statistical testing to compare the mortality/survival groups and the AKI/No AKI groups.
 2. **Cox Model**: evaluation of the risk factors for AKI occurrence, the mortality risk associated with it, and the use of a time-varying Cox model to address immortal time bias and treat AKI as a dynamic covariate.
-3. **AKI Phenotyping**: AKI patients are stratified using a 90-day post-diagnosis window according to the KDIGO guidelines. Kaplan-Meier survival curves are used to compare three subgroups: early death, renal recovery, and progression to chronic kidney disease (CKD).  
-4. **Longitudinal Kidney Function Modeling**: after estimating the glomerular filtration rate through the CKD-EPI 2021 equation, the trajectories are analyzed using Linear Mixed-Effects Models (LMM) to account for both population-level trends and individual patient variability.
+3. **Longitudinal Kidney Function Modeling**: after estimating the glomerular filtration rate through the CKD-EPI 2021 equation, the trajectories are analyzed using Linear Mixed-Effects Models (LMM) to account for both population-level trends and individual patient variability.
